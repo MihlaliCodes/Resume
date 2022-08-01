@@ -1,0 +1,149 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:110%;
+    background-color: #2e4297;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .main{
+    display: flex;
+    flex-direction: row;
+    overflow: unset;
+  }
+  
+  #profile{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border: 0.188rem solid rgb(255, 255, 255);
+  }
+  
+  header {
+    text-align: center;
+    justify-content: center;
+  }
+  #heading{
+    font-family: sans-serif ;
+    font-size: 110%;
+    background-color: #2e4297;
+    color: white;
+  }
+  
+  footer {
+    background-color: #2e4297;
+    text-align: center;
+    color: white;
+  }
+  #sidebar{
+    width: 10%;
+    background-color: #357592;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+  }
+  .nav-menu{
+    list-style-type: none;
+    padding: 0%;
+  }
+  
+  .icons{
+    width: 5rem;
+    margin: 2rem;
+    height: auto;
+  }
+  
+  .content{
+    background: #FCF7F8;
+    max-width: 93.75rem;
+    margin: auto;
+    padding: 1.25rem;
+  }
+  
+  #education{
+    border: 0.188rem inset;
+    border-color: #2e4297;
+    background-color: rgb(115, 198, 211);
+    font-style: italic;
+  }
+  
+  #experience{
+    border: 0.188rem inset;
+    border-color: #2e4297;
+    background-color: rgb(115, 198, 211);
+    font-style: italic;
+  }
+  
+  #interests{
+    border: 0.188rem inset;
+    border-color: #2e4297;
+    background-color: rgb(115, 198, 211);
+    font-style: italic;
+  }
+  
+  #skills{
+    border: 0.188rem inset;
+    border-color: #2e4297;
+    background-color: rgb(115, 198, 211);
+    font-style: italic;
+  }
+  
+  @media screen and (max-width:550px) {
+    .main {
+      display: block;
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+  
+    #sidebar {
+      font-size: larger;
+    }
+  
+    #sidebar, .content {
+      display: block;
+      float: none;
+      width: auto;
+    }
+  }
+  
+  @media screen and (max-width:850px) {
+    .main {
+      display: block;
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+  
+    #sidebar {
+      font-size: larger;
+    }
+  
+    #sidebar, .content {
+      display: block;
+      float: none;
+      width: auto;
+    }
+  }
+  
+  @media screen and (max-width:992px) {
+    .main {
+      display: block;
+      float: none;
+      width: 100%;
+    }
+  
+    #sidebar {
+      font-size: larger;
+      text-align: center;
+    }
+  
+    #sidebar, .content {
+      display: block;
+      float: none;
+      width: auto;
+    }
+  }
+  
+  a:visited {color: #092a30}
+  a:hover {color: #092a30}
